@@ -9,8 +9,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let randoms: [MyData] = Bundle.main.decode("Data.json")
     var body: some View {
-        Text("Hello, World!")
+        ChartsView(randoms: randoms)
     }
 }
 

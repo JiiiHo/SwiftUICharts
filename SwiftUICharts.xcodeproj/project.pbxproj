@@ -14,6 +14,9 @@
 		13BF05CD2489B91E00EBB375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BF05CC2489B91E00EBB375 /* Preview Assets.xcassets */; };
 		13BF05D02489B91E00EBB375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BF05CE2489B91E00EBB375 /* LaunchScreen.storyboard */; };
 		13BF05DA248C7EC800EBB375 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 13BF05D9248C7EC800EBB375 /* Data.json */; };
+		13BF05E0248F120600EBB375 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF05DF248F120600EBB375 /* MyData.swift */; };
+		13BF05E2248F130600EBB375 /* Bundle-extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF05E1248F130600EBB375 /* Bundle-extention.swift */; };
+		13BF05E4248F16CE00EBB375 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF05E3248F16CE00EBB375 /* ChartsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		13BF05CF2489B91E00EBB375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13BF05D12489B91E00EBB375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13BF05D9248C7EC800EBB375 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		13BF05DF248F120600EBB375 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		13BF05E1248F130600EBB375 /* Bundle-extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-extention.swift"; sourceTree = "<group>"; };
+		13BF05E3248F16CE00EBB375 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +67,14 @@
 				13BF05C32489B91A00EBB375 /* AppDelegate.swift */,
 				13BF05C52489B91A00EBB375 /* SceneDelegate.swift */,
 				13BF05C72489B91A00EBB375 /* ContentView.swift */,
+				13BF05E3248F16CE00EBB375 /* ChartsView.swift */,
 				13BF05C92489B91E00EBB375 /* Assets.xcassets */,
 				13BF05CE2489B91E00EBB375 /* LaunchScreen.storyboard */,
 				13BF05D12489B91E00EBB375 /* Info.plist */,
 				13BF05CB2489B91E00EBB375 /* Preview Content */,
 				13BF05D9248C7EC800EBB375 /* Data.json */,
+				13BF05DF248F120600EBB375 /* MyData.swift */,
+				13BF05E1248F130600EBB375 /* Bundle-extention.swift */,
 			);
 			path = SwiftUICharts;
 			sourceTree = "<group>";
@@ -150,9 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13BF05E0248F120600EBB375 /* MyData.swift in Sources */,
 				13BF05C42489B91A00EBB375 /* AppDelegate.swift in Sources */,
 				13BF05C62489B91A00EBB375 /* SceneDelegate.swift in Sources */,
+				13BF05E2248F130600EBB375 /* Bundle-extention.swift in Sources */,
 				13BF05C82489B91A00EBB375 /* ContentView.swift in Sources */,
+				13BF05E4248F16CE00EBB375 /* ChartsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
